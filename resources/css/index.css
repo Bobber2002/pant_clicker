@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
 /* Fonts */
 
+
+/* Resets start*/
+
 *{
  box-sizing: border-box;   
 }
@@ -15,10 +18,29 @@ html, body{
     padding: 0;
 }
 
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/* Resets end */
+
 
 .AldiH1{
     font-size: 60px;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#verticalBanner{
+    background-color: beige;
+    min-width: 85vw;
+    min-height: 100vh;
 }
 
