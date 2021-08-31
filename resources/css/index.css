@@ -1,3 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+/* Fonts */
+
 *{
  box-sizing: border-box;   
 }
@@ -9,5 +13,12 @@ video, img{
 html, body{
     margin: 0;
     padding: 0;
+}
+
+
+.AldiH1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Jaldi', sans-serif;
 }
 
