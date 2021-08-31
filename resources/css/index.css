@@ -15,10 +15,15 @@ html, body{
     padding: 0;
 }
 
+.BigAldiClicker{
+    max-width: 25%;
+}
 
 .AldiH1{
     font-size: 60px;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
+    margin-top: 10px;
+    user-select: none;
 }
 
