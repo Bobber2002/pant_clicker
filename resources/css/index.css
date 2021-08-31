@@ -30,9 +30,16 @@ body{
     font-size: 60px;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
+    text-decoration: underline;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerContent{
     display: flex;
     flex-direction: column;
     align-items: center;
