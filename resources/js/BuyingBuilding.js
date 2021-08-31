@@ -1,11 +1,12 @@
-
-var price = 10;
-
+var BuildingOnePrice = 10;
 
 document.getElementById("building").addEventListener("click", function(clickEvent){
-    console.log("You Pressed Meh :D")
-    AldiCount -= price;
+    if(AldiCount < BuildingOnePrice){
+        return false;
+    } else if(AldiCount >= BuildingOnePrice){
+    AldiCount -= BuildingOnePrice;
     display.innerHTML = AldiCount;
+    }
 });
 
 
