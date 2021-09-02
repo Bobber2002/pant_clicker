@@ -3,6 +3,8 @@ document.getElementById("building").addEventListener("click", function(clickEven
             AldiCount -= BuildingOnePrice;
             display.innerHTML = AldiCountShown;
             apps+=BuildingOneApps;
+            BuildingOnePrice = BuildingOnePrice * BuildingPriceIncreaser;
+            console.log(BuildingOnePrice);
         }
 });
 

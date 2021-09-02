@@ -1,3 +1,7 @@
+// Price increaser
+let BuildingPriceIncreaser = 1.15**2;
+// Price increaser
+
 //Clicker script
 var AldiCount = 0;
 var AldiCountShown = Math.floor(AldiCount);
