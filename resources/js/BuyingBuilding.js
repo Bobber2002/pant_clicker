@@ -7,9 +7,6 @@ document.getElementById("building").addEventListener("click", function(clickEven
         BuildingPriceIncreaser = 1.15 ** BuildingAmount;
         BuildingOnePrice = 10;
         BuildingOnePrice = BuildingOnePrice * BuildingPriceIncreaser;
-        
-            console.log("BuildingOnePrice =", BuildingOnePrice);
-
             DisplayBuildingPrice.innerHTML = BuildingOnePrice.toFixed(1);
         
         }
