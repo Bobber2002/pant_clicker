@@ -23,6 +23,8 @@ document.getElementById("building").addEventListener("click", function(clickEven
         BuildingOnePrice = BuildingOnePrice * BuildingPriceIncreaser;
         
             console.log("BuildingOnePrice =", BuildingOnePrice);
+
+            DisplayBuildingPrice.innerHTML = BuildingOnePrice.toFixed(1);
         
         }
 });

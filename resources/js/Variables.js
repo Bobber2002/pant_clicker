@@ -23,6 +23,7 @@ var BuildingOnePrice = BuildingOneOriginalPrice;
 //Buying script
 var BuildingOneApps = 0.1;
 var apps = 0;
+var DisplayBuildingPrice = document.getElementById("building1price");
 //Buying script
 
 //Upgrade script
