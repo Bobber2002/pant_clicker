@@ -17,3 +17,11 @@ document.getElementById("building").addEventListener("click", function(clickEven
       loop()
     }, 100); 
   }());
+
+  (function Aloop() {
+    setTimeout(function () {
+        AldiCountShown = Math.floor(AldiCount);
+      Aloop()
+    }, 100); 
+  }());
+
