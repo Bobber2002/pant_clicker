@@ -1,18 +1,19 @@
 var BuildingOnePrice = 10;
+var BuildingOneApps = 0.1;
 var apps = 0;
 
 document.getElementById("building").addEventListener("click", function(clickEvent){
     if(AldiCount >= BuildingOnePrice){
             AldiCount -= BuildingOnePrice;
-            display.innerHTML = AldiCount;
-            apps++;
+            display.innerHTML = AldiCountShown;
+            apps+=BuildingOneApps;
         }
 });
 
 (function loop() {
     setTimeout(function () {
-        AldiCount += apps;
-        display.innerHTML = AldiCount;      
+        AldiCount += apps/10;
+        display.innerHTML = AldiCountShown;
       loop()
-    }, 1000); 
+    }, 100); 
   }());
