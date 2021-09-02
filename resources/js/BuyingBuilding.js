@@ -1,7 +1,3 @@
-var BuildingOnePrice = 10;
-var BuildingOneApps = 0.1;
-var apps = 0;
-
 document.getElementById("building").addEventListener("click", function(clickEvent){
     if(AldiCount >= BuildingOnePrice){
             AldiCount -= BuildingOnePrice;
