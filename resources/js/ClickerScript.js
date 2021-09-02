@@ -8,3 +8,7 @@ document.getElementById("BigAldiClicker").addEventListener("click", function(cli
     display.innerHTML = AldiCount;
 });
 
+// -------------------------------------------------------------------
+
+
+// -------------------------------------------------------------------
