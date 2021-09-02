@@ -2,6 +2,11 @@
 var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
 // Price increaser
 
+//APPS
+var apps = 0;
+//APPS
+
+
 // Building Amounts
  var BuildingAmount = 0;
  var BuildingOneAmount = 0;
@@ -20,12 +25,12 @@ var BuildingOneOriginalPrice = 10;
 var BuildingOnePrice = BuildingOneOriginalPrice;
 // Building Prices
 
-//Buying script
-var BuildingOneApps = 0.1;
-var apps = 0;
-//Buying script
 
-//Upgrade script
+// Clicker Upgrades
 var upgradeClickerPrice = 10;
 var upgradeClickerAmount = 1;
-//Upgrade script
+// Clicker Upgrades
+
+// Building APPS
+var BuildingOneApps = 0.1;
+// Building APPS
