@@ -1,6 +1,11 @@
 // Price increaser
-let BuildingPriceIncreaser = 1.15**2;
+var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
 // Price increaser
+
+// Building Amounts
+ var BuildingAmount = 0;
+ var BuildingOneAmount = 0;
+// Building Amounts
 
 //Clicker script
 var AldiCount = 0;
@@ -10,8 +15,12 @@ var display = document.getElementById("DisplayAldiPointCount");
 var StartClickValue = 1;
 //Clicker script 
 
+// Building Prices
+var BuildingOneOriginalPrice = 10;
+var BuildingOnePrice = BuildingOneOriginalPrice;
+// Building Prices
+
 //Buying script
-var BuildingOnePrice = 10;
 var BuildingOneApps = 0.1;
 var apps = 0;
 //Buying script
