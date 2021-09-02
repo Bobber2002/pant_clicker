@@ -6,6 +6,10 @@ var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
 var apps = 0;
 //APPS
 
+//Get element by id
+var DisplayBuildingPrice = document.getElementById("building1price");
+var display = document.getElementById("DisplayAldiPointCount");
+//Get element by id
 
 // Building Amounts
  var BuildingAmount = 0;
@@ -16,7 +20,6 @@ var apps = 0;
 var AldiCount = 0;
 var AldiCountShown = Math.floor(AldiCount);
 var a = 1;
-var display = document.getElementById("DisplayAldiPointCount");
 var StartClickValue = 1;
 //Clicker script 
 
@@ -24,12 +27,6 @@ var StartClickValue = 1;
 var BuildingOneOriginalPrice = 10;
 var BuildingOnePrice = BuildingOneOriginalPrice;
 // Building Prices
-
-//Buying script
-var BuildingOneApps = 0.1;
-var apps = 0;
-var DisplayBuildingPrice = document.getElementById("building1price");
-//Buying script
 
 // Clicker Upgrades
 var upgradeClickerPrice = 10;
