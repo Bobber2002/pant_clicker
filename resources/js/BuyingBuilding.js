@@ -1,4 +1,7 @@
-document.getElementById("building").addEventListener("click", function(clickEvent){
+
+// --------------------BUILDING ONE---------------------------------------------------
+
+document.getElementById("buildingOne").addEventListener("click", function(clickEvent){
     if(AldiCount >= BuildingOnePrice){
         AldiCount -= BuildingOnePrice;
         apps+=BuildingOneApps;
@@ -12,4 +15,22 @@ document.getElementById("building").addEventListener("click", function(clickEven
         }
 });
 
+// --------------------BUILDING ONE---------------------------------------------------
 
+// --------------------BUILDING TWO---------------------------------------------------
+
+document.getElementById("buildingTwo").addEventListener("click", function(clickEvent){
+    if(AldiCount >= BuildingTwoPrice){
+        AldiCount -= BuildingTwoPrice;
+        apps+=BuildingTwoApps;
+        BuildingTwoAmount++;
+        BuildingAmount = BuildingTwoAmount;
+        BuildingPriceIncreaser = 1.15 ** BuildingAmount;
+        BuildingTwoPrice = 10;
+        BuildingTwoPrice = BuildingTwoPrice * BuildingPriceIncreaser;
+            DisplayBuildingPrice.innerHTML = BuildingTwoPrice.toFixed(1);
+        
+        }
+});
+
+// --------------------BUILDING TWO---------------------------------------------------

@@ -14,6 +14,7 @@ var display = document.getElementById("DisplayAldiPointCount");
 // Building Amounts
  var BuildingAmount = 0;
  var BuildingOneAmount = 0;
+ var BuildingTwoAmount = 0;
 // Building Amounts
 
 //Clicker script
@@ -26,6 +27,8 @@ var StartClickValue = 1;
 // Building Prices
 var BuildingOneOriginalPrice = 10;
 var BuildingOnePrice = BuildingOneOriginalPrice;
+var BuildingTwoOriginalPrice = 50;
+var BuildingTwoPrice = BuildingTwoOriginalPrice;
 // Building Prices
 
 // Clicker Upgrades
@@ -35,4 +38,5 @@ var upgradeClickerAmount = 1;
 
 // Building APPS
 var BuildingOneApps = 0.1;
+var BuildingTwoApps = 1;
 // Building APPS
