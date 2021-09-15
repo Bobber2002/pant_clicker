@@ -40,3 +40,8 @@ var upgradeClickerAmount = 1;
 var BuildingOneApps = 0.1;
 var BuildingTwoApps = 1;
 // Building APPS
+
+// Text colors
+var BuildingText1 = document.getElementById("Building1Text")
+var BuildingText1PriceTag = document.getElementById("building1price")
+// Text colors
