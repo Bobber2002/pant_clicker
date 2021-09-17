@@ -43,6 +43,7 @@ var BuildingTwoApps = 1;
 
 // Text colors
 var BuildingText1 = document.getElementById("Building1Text")
+var BuildingText2 = document.getElementById("Building2Text")
 var BuildingText1PriceTag = document.getElementById("building1price")
 var BuildingText2PriceTag = document.getElementById("building2price")
 
