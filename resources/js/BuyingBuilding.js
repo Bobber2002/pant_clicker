@@ -10,6 +10,7 @@ document.getElementById("buildingOne").addEventListener("click", function(clickE
         BuildingPriceIncreaser = 1.15 ** BuildingAmount;
         BuildingOnePrice = 10;
         BuildingOnePrice = BuildingOnePrice * BuildingPriceIncreaser;
+            DisplayBuildingPrice = BuildingText1PriceTag;
             DisplayBuildingPrice.innerHTML = BuildingOnePrice.toFixed(1);
         
         }
@@ -26,8 +27,9 @@ document.getElementById("buildingTwo").addEventListener("click", function(clickE
         BuildingTwoAmount++;
         BuildingAmount = BuildingTwoAmount;
         BuildingPriceIncreaser = 1.15 ** BuildingAmount;
-        BuildingTwoPrice = 10;
+        BuildingTwoPrice = 50;
         BuildingTwoPrice = BuildingTwoPrice * BuildingPriceIncreaser;
+            DisplayBuildingPrice = BuildingText2PriceTag;
             DisplayBuildingPrice.innerHTML = BuildingTwoPrice.toFixed(1);
         
         }
