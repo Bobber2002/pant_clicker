@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+/* Fonts */
+
+
+/* Resets start*/
+
+*{
+ box-sizing: border-box;   
+}
+
+video, img{
+    max-width: 100%;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Jaldi', sans-serif;
+    user-select: none;
+}
+
+/* Resets end */
+
+
+
+/* Background start */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#verticalBanner{
+    background-color: beige;
+    min-width: 85vw;
+    min-height: 100vh;
+}
+
+/* Background end */
+
+
+
+.centerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AldiH1{
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#mainContent{
+    text-align: center;
+}
+
+#BigAldiClicker{
+    -webkit-user-drag: none;
+}
+
+.PointsCounter{
+text-align: center;
+font-size: 25px;
+margin: 5px;
+
+}
+
+#Building1Text{
+    color: red;
+}
+
+#building1price{
+    color: red;
+}
