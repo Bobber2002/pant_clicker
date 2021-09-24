@@ -20,9 +20,11 @@
 * Add click number haha
 
 ```javascript
-Function funny(){
+Function funnyMoment(){
 console.log("Funny Moment");
 }
+
+funnyMoment()
 ```
 
 **That's all for now!**
