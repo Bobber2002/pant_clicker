@@ -81,3 +81,8 @@ margin: 5px;
 #building1price{
     color: red;
 }
+
+.pulse {
+    transition: .1s;
+    transform: scale(1.02, .98) translateY(0);
+}   
