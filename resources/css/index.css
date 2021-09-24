@@ -83,6 +83,6 @@ margin: 5px;
 }
 
 .pulse {
-    transform: scale(.95);
     transition: .1s;
+    transform: scale(1.02, .98) translateY(0);
 }   
