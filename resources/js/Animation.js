@@ -4,7 +4,7 @@ let LockAnimation = true;
 BigClicker.addEventListener("click", function(clickEvent){
     if(LockAnimation){
     
-        console.log(LockAnimation);
+        LockAnimation = false;
         this.classList.add('pulse');
         
         setTimeout(() => {
