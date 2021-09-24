@@ -13,6 +13,18 @@
 
 * Feedback
 
+## Future updates
+
+* Better website layout
+* Show upgrade grapichs lol
+* Add click number haha
+
+```javascript
+Function funny(){
+console.log("Funny Moment");
+}
+```
+
 **That's all for now!**
 
 **The Aldi Clicker Team.**
