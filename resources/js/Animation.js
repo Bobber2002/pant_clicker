@@ -1,19 +1,16 @@
-const BigClicker = document.querySelectorAll('.BigAldiClicker');
-
-let LockAnimation = false;
-
-function PlayAnimation() {
-    if(LockAnimation) return;
-    LockAnimation = true;
-
-    if (this === BigClicker) return;
-
-    this.classList.add('vend');
-
-    setTimeout(() => {
-        BigClicker.classList.remove('vend')
-        LockAnimation = false;
-        }, 1500);
-};
+let LockAnimation = true;
 
 
+BigClicker.addEventListener("click", function(clickEvent){
+    if(LockAnimation){
+    
+        console.log(LockAnimation);
+        this.classList.add('pulse');
+        
+        setTimeout(() => {
+            BigClicker.classList.remove('pulse');
+            LockAnimation = true;
+        }, 110)
+
+    }
+});

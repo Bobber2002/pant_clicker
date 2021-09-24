@@ -82,11 +82,7 @@ margin: 5px;
     color: red;
 }
 
-.Click-AnimationDivVeryAwesome:active {
-    transform: scale(.69);
-    transition: transform .420s;
-}
-
-.Click-AnimationDivVeryAwesome.vend {
-    transform: rotateY(180deg);
+.pulse {
+    transform: scale(.95);
+    transition: .1s;
 }

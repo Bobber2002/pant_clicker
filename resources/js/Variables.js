@@ -6,6 +6,10 @@ var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
 var apps = 0;
 //APPS
 
+// BIG CLICKER
+var BigClicker = document.getElementById("BigAldiClicker");
+// BIG CLICKER
+
 //Get element by id
 var DisplayBuildingPrice = document.getElementById("0");
 var display = document.getElementById("DisplayAldiPointCount");
