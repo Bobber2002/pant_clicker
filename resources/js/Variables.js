@@ -31,7 +31,7 @@ var StartClickValue = 1;
 // Building Prices
 var BuildingOneOriginalPrice = 10;
 var BuildingOnePrice = BuildingOneOriginalPrice;
-var BuildingTwoOriginalPrice = 50;
+var BuildingTwoOriginalPrice = 100;
 var BuildingTwoPrice = BuildingTwoOriginalPrice;
 // Building Prices
 
