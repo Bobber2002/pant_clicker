@@ -86,3 +86,8 @@ margin: 5px;
     transition: .1s;
     transform: scale(1.02, .98) translateY(0);
 }   
+
+#RandomComments{
+    background-color: white;
+    border-radius: 20px;
+}
