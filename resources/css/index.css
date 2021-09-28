@@ -19,7 +19,7 @@ html, body{
 }
 
 body{
-    min-width: 100vw;
+    min-width: 90vw;
     min-height: 100vh;
     font-family: 'Jaldi', sans-serif;
     user-select: none;
@@ -44,8 +44,6 @@ body{
 }
 
 /* Background end */
-
-
 
 .centerContent{
     display: flex;
@@ -90,4 +88,24 @@ margin: 5px;
 #RandomComments{
     background-color: white;
     border-radius: 20px;
+}
+
+#FooterCenterContent{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#SocialH2{
+    display: flex; 
+    justify-content: center;
+}
+
+#SocialLinksUl{
+ list-style: none;
+}
+
+li{
+    display: inline;
+    margin: 10px;
 }
