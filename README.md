@@ -31,6 +31,7 @@ funnyMoment()
 
 **The Aldi Clicker Team.**
 
+<img alt="VisitorCount" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=https://github.com/Daniel-Mathiesen&style=for-the-badge&theme=tokyonight"/>
 
 ⣿⣿⣿⣿⣿⣿⣿⢿⠟⠛⠿⠻⠿⠿⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⡿⠛⢙⣨⣥⣶⣶⣿⢿⣿⣿⣷⣦⣅⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
