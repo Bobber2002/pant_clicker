@@ -1,4 +1,4 @@
-# aldi_clicker 
+# aldi_clicker
 **Probably the best clicker game ever!**
 **... maybe**
 **... you know what never mind**
@@ -55,3 +55,5 @@ funnyMoment()
 
 
 If you know, you know 0-0;
+
+Original creators: ChristofferRTS and Dusty707
