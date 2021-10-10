@@ -1,88 +1,120 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
-/* Fonts */
-
-
-/* Resets start*/
-
+/* Resets */
 *{
- box-sizing: border-box;   
-}
-
-video, img{
-    max-width: 100%;
+    box-sizing: border-box;
 }
 
 html, body{
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+/* Resets */
+
+/* Main */
+.wrapper{background: rgb(109,139,140);
+    background: radial-gradient(circle, rgba(109,139,140,1) 0%, rgba(64,120,126,1) 47%, rgba(110,169,199,1) 93%, rgba(142,194,228,1) 100%);
+    height: 100%;
+    width: 100%;
 }
 
-body{
-    min-width: 100vw;
-    min-height: 100vh;
-    font-family: 'Jaldi', sans-serif;
-    user-select: none;
-}
-
-/* Resets end */
-
-
-
-/* Background start */
-
-body{
+.main{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%; 
 }
 
-#verticalBanner{
-    background-color: beige;
-    min-width: 85vw;
-    min-height: 100vh;
-}
+.main__wrapper{
+    background: rgb(236, 236, 236);
+    height: 100%;
+    width: 87.5%;
 
-/* Background end */
-
-
-
-.centerContent{
     display: flex;
-    flex-direction: column;
+}
+
+.main__left{
+    /* background: crimson; */
+    padding: 2.5%;
+    width: 25%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__right{
+    /* background: darkblue; */
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* Main */
+
+/* Left */
+.left__clickerPoints{
+    display: flex;
     align-items: center;
+    flex-direction: column;
+}
+.left__points{
+    width: 10%;
 }
 
-.AldiH1{
-    font-size: 60px;
-    text-align: center;
-    text-decoration: underline;
+.clicker{
+    max-width: 100%;
 }
+/* Left */
 
-#mainContent{
-    text-align: center;
-}
+/* Right */
+/* Right */
 
-#BigAldiClicker{
-    -webkit-user-drag: none;
-}
+/* Buyables */
+    .buyables{
+        /* background: gold; */
+        height: 100%;
+        width: 25%;
+    }
+/* Buyables */
 
-.PointsCounter{
-text-align: center;
-font-size: 25px;
-margin: 5px;
+/* Upgrades */
+    .upgrades{
+        /* background: hotpink; */
+        width: 100%;
+        height: 32.5%;
+        padding: 2.5%;
+    }
 
-}
+    .upgrade{
+        height: 64px;
+        width: 64px;
+        border: none;
+        background: lightgrey;
+    }
+/* Upgrades */
 
-#Building1Text{
-    color: red;
-}
+/* Buildings */
+    .buildings{
+        /* background: indianred; */
+        width: 100%;
+        height: 67.5%;
+        padding: 2.5%;
 
-#building1price{
-    color: red;
-}
+        display: flex;
+        flex-direction: column;
+    }
 
-.pulse {
-    transition: .1s;
-    transform: scale(1.02, .98) translateY(0);
-}   
+    .building{
+        min-height: 24px;
+        margin-bottom: 2%;
+        border: none;
+        background: lightgrey;
+    }
+
+    .building__name{
+        padding: 0;
+        margin: 0;
+    }
+/* Buildings */
+
