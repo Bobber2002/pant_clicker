@@ -25,6 +25,7 @@ html, body{
 }
 
 .main__wrapper{
+    display: flex;
     background: rgb(236, 236, 236);
     height: 100%;
     width: 87.5%;
@@ -115,7 +116,7 @@ html, body{
         margin: 0;
     }
 /* Buildings */
-
+/* 
 .pulse {
     transition: .1s;
     transform: scale(1.02, .98) translateY(0);
@@ -144,4 +145,4 @@ html, body{
 li{
     display: inline;
     margin: 10px;
-}
+} */
