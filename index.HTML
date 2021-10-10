@@ -9,30 +9,37 @@
     <title>Aldi Clicker!</title>
   </head>
   <body>
-    <div class="centerContent" id="verticalBanner">
-      <header class="AldiH1">Aldi Clicker</header>
-      <main class="centerContent" id="main">
-        <div id="mainContent" class="mainContent">
-          <div class="Click-AnimationDivVeryAwesome">
-            <img
-            src="resources/images/aldi4ever.png"
-            id="BigAldiClicker"
-            class="BigAldiClicker"
-            alt=""/>
+    <div class="wrapper">
+      <main class="main">
+        <div class="main__wrapper">
+          <div class="main__left">
+            <div class="left__clickerPoints">
+              <img class="clicker" id="BigAldiClicker" src="resources/images/aldi4ever.png" alt="">
+              <p class="left__points" id="DisplayAldiPointCount"></p>
+            </div>
           </div>
-              <p id="PointsCounter" class="PointsCounter">
-                <span id="DisplayAldiPointCount">0</span> 
-                <p id="pointsIndicator">-Aldi Points-</p>
-              </p>
-            <button class="building" id="buildingOne">
-              <p id="Building1Text">Building</p>
-              <span id="building1price" class="priceTag1">10</span>
-            </button>
-            <button id="upgradeClicker">Upgrade Your Clicker</button>
-            <button class="building" id="buildingTwo">
-              <p id="Building2Text">building</p> 
-              <span id="building2price" class="priceTag2">50</span>
-            </button>
+          <div class="main__right">
+            <div class="buyables">  
+              <div class="upgrades">
+                <p>UPGRADE</p>
+                  <button class="upgrade" id="upgradeClicker">
+                  <p>Upgrade Clicker</p>
+                  <p></p>
+                </button>
+              </div>
+              <div class="buildings">
+                <p>BUILDINGS</p>
+                <button class="building" id="buildingOne">
+                  <p class="building__name" id="Building1Text">Building 1</p>
+                  <p class="building__price" id="building1price">0</p>
+                </button>
+                <button class="building" id="buildingTwo">
+                  <p class="building__name" id="Building2Text">Building 2</p>
+                  <p class="building__price" id="building2price">0</p>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -45,6 +52,6 @@
     <script src="resources/js/funnyHeloHaha.js"></script>
     <script src="resources/js/TextColorChanger.js"></script>
     <script src="resources/js/Animation.js"></script>
-    
+    <script src="resources/js/setBuildingPrice.js"></script>
   </body>
 </html>
