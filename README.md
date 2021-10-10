@@ -1,4 +1,4 @@
-# aldi_clicker 
+# aldi_clicker
 **Probably the best clicker game ever!**
 **... maybe**
 **... you know what never mind**
@@ -13,10 +13,25 @@
 
 * Feedback
 
+## Future updates
+
+* Better website layout
+* Show upgrade grapichs lol
+* Add click number haha
+
+```javascript
+Function funnyMoment(){
+console.log("Funny Moment");
+}
+
+funnyMoment()
+```
+
 **That's all for now!**
 
 **The Aldi Clicker Team.**
 
+<img alt="VisitorCount" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=https://github.com/ChristofferRTS/aldi_clicker&style=for-the-badge&theme=tokyonight"/>
 
 ⣿⣿⣿⣿⣿⣿⣿⢿⠟⠛⠿⠻⠿⠿⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⡿⠛⢙⣨⣥⣶⣶⣿⢿⣿⣿⣷⣦⣅⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -40,3 +55,5 @@
 
 
 If you know, you know 0-0;
+
+Original creators: ChristofferRTS and Dusty707

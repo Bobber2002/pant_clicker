@@ -10,13 +10,13 @@ html, body{
 }
 /* Resets */
 
+
 /* Main */
 .wrapper{background: rgb(109,139,140);
     background: radial-gradient(circle, rgba(109,139,140,1) 0%, rgba(64,120,126,1) 47%, rgba(110,169,199,1) 93%, rgba(142,194,228,1) 100%);
     height: 100%;
     width: 100%;
 }
-
 .main{
     display: flex;
     justify-content: space-around;
@@ -28,8 +28,6 @@ html, body{
     background: rgb(236, 236, 236);
     height: 100%;
     width: 87.5%;
-
-    display: flex;
 }
 
 .main__left{
@@ -118,3 +116,32 @@ html, body{
     }
 /* Buildings */
 
+.pulse {
+    transition: .1s;
+    transform: scale(1.02, .98) translateY(0);
+}   
+
+#RandomComments{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#FooterCenterContent{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#SocialH2{
+    display: flex; 
+    justify-content: center;
+}
+
+#SocialLinksUl{
+ list-style: none;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
