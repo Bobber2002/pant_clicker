@@ -1,6 +1,7 @@
 /* Resets */
 *{
     box-sizing: border-box;
+    user-select: none;
 }
 
 html, body{
@@ -63,7 +64,6 @@ html, body{
 
 .clicker{
     max-width: 100%;
-    user-select: none;
 }
 /* Left */
 
