@@ -8,3 +8,5 @@
     loop()
   }, 100); 
 }());
+
+console.log("s")
