@@ -1,3 +1,4 @@
+
 // Price increaser
 var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
 // Price increaser

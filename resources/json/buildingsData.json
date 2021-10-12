@@ -1,0 +1,62 @@
+[
+    {
+        "id" : "b0",
+        "no" : 0,
+        "name" : "Dåse",
+        "price" : 10,
+        "oPrice" : 10,
+        "pps" : 0.1,
+        "amount" : 0,
+        "bNameId" : "bn0",
+        "bPriceId" : "bp0",
+        "canAfford" : true
+    },
+    {
+        "id" : "b1",
+        "no" : 1,
+        "name" : "Glasflaske",
+        "price" : 100,
+        "oPrice" : 100,
+        "pps": 1,
+        "amount" : 0,
+        "bNameId" : "bn1",
+        "bPriceId" : "bp1",
+        "canAfford" : false
+    },
+    {
+        "id" : "b2",
+        "no" : 2,
+        "name" : "Flaske",
+        "price" : 2000,
+        "oPrice" : 2000,
+        "pps": 5,
+        "amount" : 0,
+        "bNameId" : "bn2",
+        "bPriceId" : "bp2",
+        "canAfford" : false
+    },
+    {
+        "id" : "b3",
+        "no" : 3,
+        "name" : "Ramme",
+        "price" : 30000,
+        "oPrice" : 30000,
+        "pps": 30,
+        "amount" : 0,
+        "bNameId" : "bn3",
+        "bPriceId" : "bp3",
+        "canAfford" : false
+    },
+    {
+        "id" : "b4",
+        "no" : 4,
+        "name" : "Sæk",
+        "price" : 450000,
+        "oPrice" : 450000,
+        "pps": 100,
+        "amount" : 0,
+        "bNameId" : "bn4",
+        "bPriceId" : "bp4",
+        "canAfford" : false
+    }
+]

@@ -1,3 +1,62 @@
+fetch('resources/json/buildingsData.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                buyBuilding(data);
+                changeColor(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+function buyBuilding(data){
+    for (var i = 0; i < data.length; i++){
+        
+        var price = data[i].no;
+        
+        
+        function buy(bno){
+            var thisBuilding = data[bno]
+            var priceId = thisBuilding.bPriceId;
+            if(AldiCount >= thisBuilding.price){
+                AldiCount -= thisBuilding.price;
+                apps += thisBuilding.pps;
+                thisBuilding.amount++;
+                BuildingPriceIncreaser = 1.15 ** thisBuilding.amount;
+                thisBuilding.price = thisBuilding.oPrice;
+                thisBuilding.price = thisBuilding.price * BuildingPriceIncreaser;
+                document.getElementById(priceId).innerHTML = thisBuilding.price.toFixed(1);
+            }
+        }
+
+        
+        
+        document.getElementById(data[i].id).addEventListener('click', function(clickEvent){
+            buy(this.dataset.bno);
+        });
+    }
+}
+function changeColor(data){
+    setTimeout(
+        function update(data){
+            for(var i = 0; i < data.length; i++){
+                if(document.getElementById(data[i].bPriceId).innerHTML > AldiCount){
+                    document.getElementById(data[i].bPriceId).style.color = 'red';
+                    document.getElementById(data[i].bNameId).style.color = 'red';
+                }else{
+                    document.getElementById(data[i].bPriceId).style.color = 'limegreen';
+                    document.getElementById(data[i].bNameId).style.color = 'limegreen';
+                }
+            }
+            changeColor(data)    
+        }, 100, data)
+}
+
+
+// setTimeout(function(){
+//     changeColor(data)
+// }, 250)
 
 // --------------------BUILDING ONE---------------------------------------------------
 
