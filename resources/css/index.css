@@ -3,6 +3,7 @@
     box-sizing: border-box;
     user-select: none;
     font-family: 'Comic Sans MS';
+    -webkit-user-drag: none;
 }
 
 html, body{
