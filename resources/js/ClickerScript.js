@@ -1,4 +1,4 @@
 
-document.getElementById("BigAldiClicker").addEventListener("click", function(clickEvent){
-    AldiCount+=StartClickValue;
+document.getElementById("BigPantClicker").addEventListener("click", function(clickEvent){
+    PantCount+=StartClickValue;
 });

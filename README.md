@@ -1,4 +1,4 @@
-# aldi_clicker
+# Pant_clicker
 **Probably the best clicker game ever!**
 **... maybe**
 **... you know what never mind**
@@ -29,9 +29,9 @@ funnyMoment()
 
 **That's all for now!**
 
-**The Aldi Clicker Team.**
+**The Pant Clicker Team.**
 
-<img alt="VisitorCount" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=https://github.com/ChristofferRTS/aldi_clicker&style=for-the-badge&theme=tokyonight"/>
+<img alt="VisitorCount" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=https://github.com/ChristofferRTS/Pant_clicker&style=for-the-badge&theme=tokyonight"/>
 
 ⣿⣿⣿⣿⣿⣿⣿⢿⠟⠛⠿⠻⠿⠿⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⡿⠛⢙⣨⣥⣶⣶⣿⢿⣿⣿⣷⣦⣅⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿

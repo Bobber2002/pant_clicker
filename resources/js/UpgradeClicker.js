@@ -1,6 +1,6 @@
 document.getElementById("upgradeClicker").addEventListener("click", function(clickEvent){
-    if(AldiCount >= upgradeClickerPrice){
-        AldiCount -= upgradeClickerPrice
+    if(PantCount >= upgradeClickerPrice){
+        PantCount -= upgradeClickerPrice
         StartClickValue+=upgradeClickerAmount; 
         document.getElementById('upgradeClicker').remove();
     }

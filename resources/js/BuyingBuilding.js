@@ -19,8 +19,8 @@ function buyBuilding(data){
         function buy(bno){
             var thisBuilding = data[bno]
             var priceId = thisBuilding.bPriceId;
-            if(AldiCount >= thisBuilding.price){
-                AldiCount -= thisBuilding.price;
+            if(PantCount >= thisBuilding.price){
+                PantCount -= thisBuilding.price;
                 apps += thisBuilding.pps;
                 thisBuilding.amount++;
                 BuildingPriceIncreaser = 1.15 ** thisBuilding.amount;
@@ -41,7 +41,7 @@ function changeColor(data){
     setTimeout(
         function update(data){
             for(var i = 0; i < data.length; i++){
-                if(document.getElementById(data[i].bPriceId).innerHTML > AldiCount){
+                if(document.getElementById(data[i].bPriceId).innerHTML > PantCount){
                     document.getElementById(data[i].bPriceId).style.color = 'red';
                     document.getElementById(data[i].bNameId).style.color = 'red';
                 }else{
@@ -61,8 +61,8 @@ function changeColor(data){
 // --------------------BUILDING ONE---------------------------------------------------
 
 document.getElementById("buildingOne").addEventListener("click", function(clickEvent){
-    if(AldiCount >= BuildingOnePrice){
-        AldiCount -= BuildingOnePrice;
+    if(PantCount >= BuildingOnePrice){
+        PantCount -= BuildingOnePrice;
         apps+=BuildingOneApps;
         BuildingOneAmount++;
         BuildingAmount = BuildingOneAmount;
@@ -80,8 +80,8 @@ document.getElementById("buildingOne").addEventListener("click", function(clickE
 // --------------------BUILDING TWO---------------------------------------------------
 
 document.getElementById("buildingTwo").addEventListener("click", function(clickEvent){
-    if(AldiCount >= BuildingTwoPrice){
-        AldiCount -= BuildingTwoPrice;
+    if(PantCount >= BuildingTwoPrice){
+        PantCount -= BuildingTwoPrice;
         apps+=BuildingTwoApps;
         BuildingTwoAmount++;
         BuildingAmount = BuildingTwoAmount;

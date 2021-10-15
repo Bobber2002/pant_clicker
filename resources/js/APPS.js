@@ -2,10 +2,10 @@
 
 (function loop() {
   setTimeout(function () {
-         AldiCount += apps/10;
+         PantCount += apps/10;
          var perSecond = document.getElementById("perSecondCounter")  
            perSecond.innerHTML = apps.toFixed(1);
-           document.title=(AldiCount).toFixed()+' Aldi points - Aldi Clicker';
+           document.title=(PantCount).toFixed()+' Pant points - Pant Clicker';
        loop()
    }, 100); 
  }());

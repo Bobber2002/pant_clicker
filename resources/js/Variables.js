@@ -8,12 +8,12 @@ var apps = 0;
 //APPS
 
 // BIG CLICKER
-var BigClicker = document.getElementById("BigAldiClicker");
+var BigClicker = document.getElementById("BigPantClicker");
 // BIG CLICKER
 
 //Get element by id
 var DisplayBuildingPrice = document.getElementById("0");
-var display = document.getElementById("DisplayAldiPointCount");
+var display = document.getElementById("DisplayPantPointCount");
 //Get element by id
 
 // Building Amounts
@@ -23,8 +23,8 @@ var display = document.getElementById("DisplayAldiPointCount");
 // Building Amounts
 
 //Clicker script
-var AldiCount = 0;
-var AldiCountShown = Math.floor(AldiCount);
+var PantCount = 0;
+var PantCountShown = Math.floor(PantCount);
 var a = 1;
 var StartClickValue = 1;
 //Clicker script 
