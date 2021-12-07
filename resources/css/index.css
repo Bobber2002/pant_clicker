@@ -126,29 +126,3 @@ html, body{
         transform: scale(1.02, .98) translateY(0);
     }   
     /* Animation */
-    
-/* 
-#RandomComments{
-    background-color: white;
-    border-radius: 20px;
-}
-
-#FooterCenterContent{
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-}
-
-#SocialH2{
-    display: flex; 
-    justify-content: center;
-}
-
-#SocialLinksUl{
- list-style: none;
-}
-
-li{
-    display: inline;
-    margin: 10px;
-} */
