@@ -1,7 +1,18 @@
+fetch('resources/json/buildingsData.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                createArr(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+            
+            
+            
+            
 
-// Price increaser
-var BuildingPriceIncreaser = 1.15 ** BuildingAmount;
-// Price increaser
 
 //APPS
 var apps = 0;
@@ -17,9 +28,7 @@ var display = document.getElementById("DisplayPantPointCount");
 //Get element by id
 
 // Building Amounts
- var BuildingAmount = 0;
- var BuildingOneAmount = 0;
- var BuildingTwoAmount = 0;
+var BuildingAmount = 0;
 // Building Amounts
 
 //Clicker script
@@ -29,27 +38,42 @@ var a = 1;
 var StartClickValue = 1;
 //Clicker script 
 
-// Building Prices
-var BuildingOneOriginalPrice = 10;
-var BuildingOnePrice = BuildingOneOriginalPrice;
-var BuildingTwoOriginalPrice = 100;
-var BuildingTwoPrice = BuildingTwoOriginalPrice;
-// Building Prices
 
 // Clicker Upgrades
 var upgradeClickerPrice = 10;
 var upgradeClickerAmount = 1;
 // Clicker Upgrades
 
-// Building APPS
-var BuildingOneApps = 0.1;
-var BuildingTwoApps = 1;
-// Building APPS
+// Price 
+var priceArr = [];
+// Price
 
-// Text colors
-var BuildingText1 = document.getElementById("Building1Text")
-var BuildingText2 = document.getElementById("Building2Text")
-var BuildingText1PriceTag = document.getElementById("building1price")
-var BuildingText2PriceTag = document.getElementById("building2price")
 
-// Text colors
+// Amount
+var amountArr = [];
+// Amount
+
+var PriceIncreaser = 1.6
+var BuildingPriceIncreaser = PriceIncreaser ** BuildingAmount;
+// Price 
+
+function createArr(data){
+    var arr = [];
+    
+    for (let i = 0; i < data.length; i++) {
+        if(priceArr.length<data.length){
+            const element = data[i];
+            arr.push(element);    
+            priceArr.push(element.price)
+        }
+        if(amountArr.length<data.length){
+            const element = data[i];
+            arr.push(element);    
+            amountArr.push(element.amount)
+        }
+
+    }
+
+};
+
+console.log(amountArr);

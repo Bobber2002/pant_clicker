@@ -27,8 +27,9 @@ function createBuildings(data){
 
         var buildingPrice= document.createElement('p');
         buildingButton.appendChild(buildingPrice);
+
         buildingPrice.className = "buildingPrice";
-        buildingPrice.innerHTML = data[i].price;
+        buildingPrice.innerHTML = priceArr[i].toFixed(1);
         buildingPrice.id = data[i].bPriceId;
 
     }
