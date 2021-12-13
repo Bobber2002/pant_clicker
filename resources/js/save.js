@@ -2,6 +2,10 @@ let saveTimer = 45;
 
 let timeout = saveTimer*1000;
 
+document.getElementById('save').addEventListener('click', function(clickEvent){
+    save();
+});
+
 
 function save(){
 

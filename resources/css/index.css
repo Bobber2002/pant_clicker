@@ -48,9 +48,9 @@ html, body{
     /* background: darkblue; */
     width: 75%;
     height: 100%;
+    justify-content: end;
 
     display: flex;
-    flex-direction: row-reverse;
 }
 /* Main */
 
@@ -79,6 +79,36 @@ html, body{
         width: 25%;
     }
 /* Buyables */
+
+/* Nav */
+.nav{
+    padding: 0.5%;
+    width: 75%;
+    height: 7.5%;
+
+    display: flex;
+
+    flex-direction: row-reverse;
+}
+/* Nav */
+
+/* Save */
+.save{
+    background: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    padding: 2%;
+}
+.save p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 80%;
+    height: 100%;
+}
+/* Save */
 
 /* Upgrades */
     .upgrades{
