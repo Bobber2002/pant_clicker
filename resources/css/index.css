@@ -110,6 +110,25 @@ html, body{
 }
 /* Save */
 
+/* Reset */
+.reset{
+    background: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    padding: 2%;
+    margin-right: 10px;
+}
+.reset p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 80%;
+    height: 100%;
+}
+/* Reset */
+
 /* Upgrades */
     .upgrades{
         /* background: hotpink; */
