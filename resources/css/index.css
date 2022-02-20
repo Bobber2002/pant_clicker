@@ -17,7 +17,7 @@ html, body{
 /* Main */
 .wrapper{background: rgb(109,139,140);
     background: radial-gradient(circle, rgba(109,139,140,1) 0%, rgba(64,120,126,1) 47%, rgba(110,169,199,1) 93%, rgba(142,194,228,1) 100%);
-    height: 100%;
+    height: 900px;
     width: 100%;
 }
 .main{
@@ -30,7 +30,7 @@ html, body{
 .main__wrapper{
     display: flex;
     background: rgb(236, 236, 236);
-    height: 100%;
+    height: 900px;
     width: 87.5%;
 }
 
@@ -38,7 +38,7 @@ html, body{
     /* background: crimson; */
     padding: 2.5%;
     width: 25%;
-    height: 100%;
+    height: 900px;
 
     display: flex;
     justify-content: space-around;
@@ -47,7 +47,7 @@ html, body{
 .main__right{
     /* background: darkblue; */
     width: 75%;
-    height: 100%;
+    height: 900px;
     justify-content: end;
 
     display: flex;
