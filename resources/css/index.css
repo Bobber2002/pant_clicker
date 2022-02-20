@@ -13,6 +13,41 @@ html, body{
 }
 /* Resets */
 
+/* Themes */
+
+.LightModeTheme{
+    background-color: rgb(236, 236, 236);
+}
+
+.DarkModeTheme .main__wrapper{
+    background-color: #15202b;
+}
+
+.DarkModeTheme p{
+    color: #FFFFFF;
+}
+
+.DarkModeTheme .upgrade{
+    background: #223446;
+}
+
+.DarkModeTheme .building{
+   background: #223446; 
+}
+
+.DarkModeTheme .save{
+    background: #223446;
+}
+
+.DarkModeTheme .reset{
+    background: #223446;
+}
+
+.DarkModeTheme .wrapper{
+    background: radial-gradient(circle, rgb(38, 47, 48) 0%, rgb(21, 39, 41) 47%, rgb(20, 30, 36) 93%, rgb(32, 43, 51) 100%);  
+}
+/* Themes */
+
 
 /* Main */
 .wrapper{background: rgb(109,139,140);
