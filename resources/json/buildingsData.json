@@ -54,5 +54,27 @@
         "amount" : 0,
         "bNameId" : "bn4",
         "bPriceId" : "bp4"
+    },
+    {
+        "id" : "b5",
+        "no" : 5,
+        "name" : "Tolv-pack",
+        "price" : 500,
+        "oPrice" : 500,
+        "pps": 50,
+        "amount" : 0,
+        "bNameId" : "bn5",
+        "bPriceId" : "bp5"
+    },
+    {
+        "id" : "6",
+        "no" : 6,
+        "name" : "Guldbajer",
+        "price" : 2000,
+        "oPrice" : 2000,
+        "pps": 100,
+        "amount" : 0,
+        "bNameId" : "bn6",
+        "bPriceId" : "bp6"
     }
 ]

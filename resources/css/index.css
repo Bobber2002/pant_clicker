@@ -149,7 +149,7 @@ html, body{
     .buildings{
         /* background: indianred; */
         width: 100%;
-        height: 67.5%;
+        height: 100%;
         padding: 2.5%;
 
         display: flex;
