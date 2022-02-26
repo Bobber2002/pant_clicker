@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Resets */
+
+*{
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Comic Sans MS';
+  -webkit-user-drag: none;
+}
+
+html, body, #root{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

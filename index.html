@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link rel="icon" href="resources/images/Pant4ever.png">
-    <link rel="stylesheet" href="resources/css/index.css" />
-    <title>Pant Clicker!</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
   </head>
-  <body class="LightModeTheme">
-    <div class="wrapper">
-      <main class="main">
-        <div class="main__wrapper">
-          <div class="main__left">
-            <div class="left__clickerPoints">
-              <p class="left__points" id="DisplayPantPointCount"></p>
-              <p id="perSecond">per second: <span id="perSecondCounter"></span></p>
-              <img class="clicker" id="BigPantClicker" src="resources/images/Pant4ever.png" alt="">
-            </div>
-          </div>
-          <div class="main__right">
-            <div class="nav">
-              <div class="save" id="save">
-                <p>save</p>
-              </div>
-              <div class="reset" id="reset">
-                <p>reset</p>
-              </div>
-              <div class="reset" id="dark-mode-toggle">
-                  <p>Theme</p>
-              </div>
-            </div>
-            <div class="buyables">  
-              <div class="upgrades">
-                <p>UPGRADES</p>
-                  <button class="upgrade" id="upgradeClicker">
-                  <p>Upgrade Clicker</p>
-                  <p></p>
-                </button>
-              </div>
-              <div class="buildings" id="buildings">
-                <p>BUILDINGS</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-    <script src="resources/js/Variables.js"></script>
-    <script src="resources/js/load.js"></script>
-    <script src="resources/js/save.js"></script>
-    <script src="resources/js/reset.js"></script>
-    <script src="resources/js/createBuildings.js"></script>
-    <script src="resources/js/ClickerScript.js"></script>
-    <script src="resources/js/UpgradeClicker.js"></script>
-    <script src="resources/js/APPS.js"></script>
-    <script src="resources/js/UpdatePantCountShown.js"></script>
-    <script src="resources/js/funnyHeloHaha.js"></script>
-    <script src="resources/js/Animation.js"></script>
-    <script src="resources/js/BuyingBuilding.js"></script>
-    <script src="resources/js/darkMode.js"></script>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
