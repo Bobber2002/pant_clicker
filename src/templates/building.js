@@ -1,13 +1,24 @@
 import { useState } from "react";
 
-const Building = ({ points, price, setPoints, name, pps, setPps, gainPps }) => {
+const Building = ({
+  points,
+  price,
+  setPoints,
+  name,
+  pps,
+  setPps,
+  gainPps,
+  amount,
+}) => {
   const [updatePrice, setUpdatePrice] = useState(price);
+  const [updateAmount, setUpdateAmount] = useState(amount);
 
   function handleClick() {
-    points >= price && setPoints(points - price);
-    points >= price && setUpdatePrice(updatePrice + 1);
+    points >= price && setPoints(parseFloat((points - price).toFixed(1)));
     points >= price && setPps(pps + gainPps);
-  }
+    points >= price && setUpdateAmount(updateAmount + 1);
+    points >= price && setUpdatePrice(parseFloat((updatePrice + updatePrice**(updateAmount*3/100)).toFixed(1)));
+  } 
 
   return (
     <div

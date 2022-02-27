@@ -3,10 +3,12 @@ import Main from "./components/main";
 
 
 function App() {
+
+
   return (
     <>
-    <Bg />
-    <Main />
+      <Bg />
+      <Main />
     </>
   );
 }

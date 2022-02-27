@@ -9,6 +9,7 @@ const Main = () => {
     const [pps, setPps] = useState(0);
     const [points, setPoints] = useState(0);
 
+
   return (
     <FlexSA>
       <main className="h-full w-10/12 bg-[#ededed]">

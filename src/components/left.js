@@ -14,6 +14,7 @@ const Left = ({ points, setPoints, pps }) => {
     setPoints(points + 1);
   }
 
+  
   return (
     <div className="w-3/12 h-full border-r-2 border-slate">
       <FlexCIC>
