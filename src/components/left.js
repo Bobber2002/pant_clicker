@@ -1,10 +1,17 @@
 import FlexCIC from "../templates/flex-col-itemsCenter";
 import Image from "../resources/images/Pant4ever.png";
+import { useEffect } from "react";
 
-const Left = ({points, setPoints}) => {
+const Left = ({ points, setPoints, pps }) => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPoints((points) => parseFloat((points + pps / 10).toFixed(1)));
+    }, 100);
+    return () => clearInterval(interval);
+  }, [pps]);
 
   function handleClick() {
-    setPoints(points+1);
+    setPoints(points + 1);
   }
 
   return (
@@ -14,7 +21,7 @@ const Left = ({points, setPoints}) => {
           {points}
         </p>
         <p id="pps" className="w-full mb-4 text-center">
-          points pr second
+          {pps} pant pr. sekund
         </p>
         <img
           src={Image}
