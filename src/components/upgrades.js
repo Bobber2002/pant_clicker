@@ -1,3 +1,5 @@
+
+
 const Upgrades = () => {
     return ( 
         <div id="upgrades" className="w-full h-2/6">

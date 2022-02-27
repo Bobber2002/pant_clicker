@@ -1,11 +1,11 @@
 import FlexReSB from "../templates/flex-rev-spaceBetween";
 import Buyables from "./buyables";
 
-const Right = () => {
+const Right = ({points, setPoints}) => {
   return (
-    <div className="h-full w-9/12">
+    <div className="w-9/12 h-full">
       <FlexReSB>
-          <Buyables />
+          <Buyables points={points} setPoints={setPoints}/>
       </FlexReSB>
     </div>
   );
