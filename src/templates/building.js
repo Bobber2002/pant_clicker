@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Building = ({ children, points, price, setPoints, name }) => {
+const Building = ({ points, price, setPoints, name }) => {
   const [updatePrice, setUpdatePrice] = useState(price);
 
   function handleClick() {
