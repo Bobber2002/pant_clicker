@@ -1,12 +1,12 @@
 import FlexCIC from "../templates/flex-col-itemsCenter";
 import Image from "../resources/images/Pant4ever.png";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import * as ADNotations from "@antimatter-dimensions/notations";
 
 
 const Left = ({ points, setPoints, pps }) => {
   
-  const scientific = new ADNotations.ScientificNotation();
+  const mixedScientific = new ADNotations.MixedScientificNotation();
   
   // console.log(scientific.format(10000,1,1));
 
@@ -30,7 +30,7 @@ const Left = ({ points, setPoints, pps }) => {
     <div className="w-3/12 h-full border-r-2 border-slate">
       <FlexCIC>
         <p id="points" className="w-full mt-12 mb-8 text-center">
-          {scientific.format(points,3 ,1)}
+          {mixedScientific.format(points,1 ,points % 1 === 0 ? 0 : 1)}
         </p>
         <p id="pps" className="w-full mb-4 text-center">
           {pps} pant pr. sekund
