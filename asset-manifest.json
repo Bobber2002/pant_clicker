@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pant_clicker/static/css/main.b3a44c6f.css",
-    "main.js": "/pant_clicker/static/js/main.27ac2b14.js",
+    "main.css": "/pant_clicker/static/css/main.4d78821b.css",
+    "main.js": "/pant_clicker/static/js/main.dde36bc5.js",
     "static/media/Pant4ever.png": "/pant_clicker/static/media/Pant4ever.8031a79e576d8715ae7f.png",
     "index.html": "/pant_clicker/index.html",
-    "main.b3a44c6f.css.map": "/pant_clicker/static/css/main.b3a44c6f.css.map",
-    "main.27ac2b14.js.map": "/pant_clicker/static/js/main.27ac2b14.js.map"
+    "main.4d78821b.css.map": "/pant_clicker/static/css/main.4d78821b.css.map",
+    "main.dde36bc5.js.map": "/pant_clicker/static/js/main.dde36bc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a44c6f.css",
-    "static/js/main.27ac2b14.js"
+    "static/css/main.4d78821b.css",
+    "static/js/main.dde36bc5.js"
   ]
 }
